@@ -1,0 +1,13 @@
+server:
+  port: 8070
+
+rundeck:
+  token: BRygPXkjwqz1wihLSxupXT9x4IWjhxYH
+  base:
+    url: http://10.1.1.191:4440
+
+jenkins:
+  url: http://10.1.1.191:8080/
+  username: admin
+  password: admin
+
