@@ -1,13 +1,17 @@
 package com.dolphintwo.rundeckdemo.util;
 
-
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.springframework.stereotype.Component;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import com.dolphintwo.rundeckdemo.resource.RundeckJob;
+import com.dolphintwo.rundeckdemo.resource.Jobs;
+import com.dolphintwo.rundeckdemo.resource.Execution;
+import com.dolphintwo.rundeckdemo.resource.Nodes;
 
 /**
  * Created by dd on 2018/8/21 10:52

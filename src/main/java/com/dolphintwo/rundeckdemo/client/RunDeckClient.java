@@ -1,10 +1,25 @@
 package com.dolphintwo.rundeckdemo.client;
 
+import java.util.List;
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.util.UriComponentsBuilder;
+
+import com.dolphintwo.rundeckdemo.resource.Execution;
+import com.dolphintwo.rundeckdemo.resource.Jobs;
+import com.dolphintwo.rundeckdemo.resource.Nodes;
+import com.dolphintwo.rundeckdemo.resource.RundeckJob;
+import com.dolphintwo.rundeckdemo.util.RunDeckUtil;
 
 /**
  * Created by dd on 2018/8/21 10:49
@@ -92,11 +107,8 @@ public class RunDeckClient implements CommandLineRunner {
         HttpHeaders headers = new HttpHeaders();
         headers.set("Accept", "application/json");
         headers.set("X-Rundeck-Auth-Token",rundeckToken);
-
         HttpEntity<String> entity = new HttpEntity<String>(headers);
-
         String jsonString = restTemplate.exchange(uri.toUriString(), HttpMethod.GET, entity, String.class).getBody();
-
         return runDeckUtil.convertNodesJsonToObject(jsonString);
     }
 
@@ -107,6 +119,4 @@ public class RunDeckClient implements CommandLineRunner {
         //getProjects();
 
     }
-
-
 }
