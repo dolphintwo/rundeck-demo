@@ -1,9 +1,13 @@
 package com.dolphintwo.rundeckdemo.resource;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * Created by dd on 2018/8/21 15:38
  */
-
+@Getter
+@Setter
 public class JobsResource {
     private String id;
     private String name;
@@ -14,86 +18,6 @@ public class JobsResource {
     private String revisionID;
     private String deployedBy;
     private String env;
-
     private Executions executionsList;
 
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getProject() {
-        return project;
-    }
-
-    public void setProject(String project) {
-        this.project = project;
-    }
-
-    public String getGroup() {
-        return group;
-    }
-
-    public void setGroup(String group) {
-        this.group = group;
-    }
-
-    public Boolean getScheduled() {
-        return scheduled;
-    }
-
-    public void setScheduled(Boolean scheduled) {
-        this.scheduled = scheduled;
-    }
-
-    public String getHref() {
-        return href;
-    }
-
-    public void setHref(String href) {
-        this.href = href;
-    }
-
-    public String getRevisionID() {
-        return revisionID;
-    }
-
-    public void setRevisionID(String revisionID) {
-        this.revisionID = revisionID;
-    }
-
-    public String getDeployedBy() {
-        return deployedBy;
-    }
-
-    public void setDeployedBy(String deployedBy) {
-        this.deployedBy = deployedBy;
-    }
-
-    public String getEnv() {
-        return env;
-    }
-
-    public void setEnv(String env) {
-        this.env = env;
-    }
-
-    public Executions getExecutionsList() {
-        return executionsList;
-    }
-
-    public void setExecutionsList(Executions executionsList) {
-        this.executionsList = executionsList;
-    }
 }
