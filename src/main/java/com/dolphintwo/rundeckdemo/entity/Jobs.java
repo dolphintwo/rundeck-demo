@@ -1,4 +1,4 @@
-package com.dolphintwo.rundeckdemo.resource;
+package com.dolphintwo.rundeckdemo.entity;
 
 import java.util.ArrayList;
 import java.util.List;

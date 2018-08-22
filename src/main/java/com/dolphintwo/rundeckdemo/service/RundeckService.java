@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 
 import com.dolphintwo.rundeckdemo.client.RunDeckClient;
 import com.dolphintwo.rundeckdemo.repository.RundeckJobRepository;
-import com.dolphintwo.rundeckdemo.resource.*;
+import com.dolphintwo.rundeckdemo.entity.*;
 import com.dolphintwo.rundeckdemo.util.DateTimeUtil;
 /**
  * Created by dd on 2018/8/21 15:40

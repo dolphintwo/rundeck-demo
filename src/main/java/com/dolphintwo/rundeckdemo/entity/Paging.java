@@ -1,4 +1,4 @@
-package com.dolphintwo.rundeckdemo.resource;
+package com.dolphintwo.rundeckdemo.entity;
 
 import lombok.Getter;
 import lombok.Setter;

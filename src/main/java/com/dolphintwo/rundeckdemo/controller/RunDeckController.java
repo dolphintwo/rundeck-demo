@@ -9,11 +9,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
 
-import com.dolphintwo.rundeckdemo.resource.RundeckJob;
-import com.dolphintwo.rundeckdemo.resource.RundeckJobName;
-import com.dolphintwo.rundeckdemo.resource.RundeckResource;
+import com.dolphintwo.rundeckdemo.entity.RundeckJob;
+import com.dolphintwo.rundeckdemo.entity.RundeckJobName;
+import com.dolphintwo.rundeckdemo.entity.RundeckResource;
 import com.dolphintwo.rundeckdemo.service.RundeckService;
 
 /**

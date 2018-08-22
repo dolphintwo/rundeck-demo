@@ -15,10 +15,10 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.dolphintwo.rundeckdemo.resource.Execution;
-import com.dolphintwo.rundeckdemo.resource.Jobs;
-import com.dolphintwo.rundeckdemo.resource.Nodes;
-import com.dolphintwo.rundeckdemo.resource.RundeckJob;
+import com.dolphintwo.rundeckdemo.entity.Execution;
+import com.dolphintwo.rundeckdemo.entity.Jobs;
+import com.dolphintwo.rundeckdemo.entity.Nodes;
+import com.dolphintwo.rundeckdemo.entity.RundeckJob;
 import com.dolphintwo.rundeckdemo.util.RunDeckUtil;
 
 /**

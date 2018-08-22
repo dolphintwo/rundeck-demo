@@ -8,10 +8,10 @@ import org.springframework.stereotype.Component;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
-import com.dolphintwo.rundeckdemo.resource.RundeckJob;
-import com.dolphintwo.rundeckdemo.resource.Jobs;
-import com.dolphintwo.rundeckdemo.resource.Execution;
-import com.dolphintwo.rundeckdemo.resource.Nodes;
+import com.dolphintwo.rundeckdemo.entity.RundeckJob;
+import com.dolphintwo.rundeckdemo.entity.Jobs;
+import com.dolphintwo.rundeckdemo.entity.Execution;
+import com.dolphintwo.rundeckdemo.entity.Nodes;
 
 /**
  * Created by dd on 2018/8/21 10:52

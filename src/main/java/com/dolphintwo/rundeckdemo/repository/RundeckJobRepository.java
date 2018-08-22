@@ -2,7 +2,7 @@ package com.dolphintwo.rundeckdemo.repository;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 
-import com.dolphintwo.rundeckdemo.resource.RundeckJob;
+import com.dolphintwo.rundeckdemo.entity.RundeckJob;
 
 /**
  * Created by dd on 2018/8/21 15:32

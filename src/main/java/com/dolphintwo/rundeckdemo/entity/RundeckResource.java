@@ -1,4 +1,4 @@
-package com.dolphintwo.rundeckdemo.resource;
+package com.dolphintwo.rundeckdemo.entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

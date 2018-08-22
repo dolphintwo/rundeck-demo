@@ -11,3 +11,11 @@ jenkins:
   username: admin
   password: admin
 
+spring:
+  data:
+    mongodb:
+      database: testdd
+      host: 10.1.1.191
+      port: 27017
+      username: testdd
+      password: 123456

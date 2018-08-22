@@ -1,7 +1,6 @@
-package com.dolphintwo.rundeckdemo.resource;
+package com.dolphintwo.rundeckdemo.entity;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import lombok.Getter;
